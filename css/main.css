@@ -2728,3 +2728,20 @@ footer .social-links li:first-child {
 .highlight {
   color: rgb(238, 196, 13); /* Red color for the first slash */
 }
+
+.product__item__title {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.product__item__description {
+	display: none;
+	margin-top: 5px; /* Reduce spacing above the description */
+}
+
+.custom-bullet {
+	list-style-type: disc; /* Default bullet style */
+	color: white; /* Change bullet color if desired */
+	/* padding-left: 20px; */
+	line-height: 1.5; /* Adjust line height for spacing */
+}
